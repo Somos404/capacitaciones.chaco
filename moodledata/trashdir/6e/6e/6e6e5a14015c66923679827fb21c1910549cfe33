@@ -1,0 +1,49 @@
+from tabulate import tabulate
+from modelo import Contacto
+
+class Vista:
+	def __init__(self):
+		self.op1 = 'Agregar'
+		self.op2 = 'Buscar'
+		self.op3 = 'Modificar'
+		self.op4 = 'Eliminar'
+		self.op5 = 'Todos'
+		self.op6 = 'Presione cualquier otro numero para salir...'
+
+	def Menu(self):
+		print(' MENU '.center(80, '='))
+		print(f' 1   -- {self.op1}')
+		print(f' 2   -- {self.op2}')
+		print(f' 3   -- {self.op3}')
+		print(f' 4   -- {self.op4}')
+		print(f' 5   -- {self.op5}')
+		print(f' {self.op6}')
+		return int(input())
+
+	def ingresarDatos(self):
+		self.__datos = list()
+		nom       = input('Ingrese nombre: ')
+		self.__datos.append(nom)
+		tel       = int(input('Ingrese telefono: '))
+		self.__datos.append(tel)
+		mail      = input('Ingrese email: ')
+		self.__datos.append(mail)
+		nContacto = Contacto(*self.__datos)
+		return nContacto.datosContacto()
+
+	def buscarContacto(self):
+		self.buscado = input('Ingrese nombre para Buscar: ')
+		return self.buscado
+
+	def modificarContacto(self):
+		self.id = input('Ingrese id para del contacto para modificar: ')
+		return self.id
+
+	def eliminarContacto(self):
+		self.id = input('Ingrese id para del contacto para eliminar: ')
+		return self.id
+
+
+
+	def Mostrar(self, a):
+		print(tabulate(a))

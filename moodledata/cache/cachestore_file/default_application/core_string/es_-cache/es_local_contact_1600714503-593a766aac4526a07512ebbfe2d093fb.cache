@@ -1,0 +1,32 @@
+a:28:{s:10:"pluginname";s:22:"Formulario de Contacto";s:16:"privacy:metadata";s:74:"El plugin Contact Form no guarda información personal de ningún usuario.";s:10:"globalhelp";s:173:"Contact Form es un plugin para Moodle que permite procesar información enviada a través de un formulario de contacto HTML a la dirección de correo de soporte de tu sitio.";s:9:"configure";s:22:"Configurar este plugin";s:10:"field-name";s:6:"nombre";s:11:"field-email";s:5:"email";s:13:"field-subject";s:6:"asunto";s:13:"field-message";s:7:"mensaje";s:19:"confirmationmessage";s:121:"Te responderemos a la mayor brevedad posible. Gracias por interesarte en las capacitaciones online del Gobierno del Chaco";s:16:"confirmationsent";s:68:"Hemos enviado un correo a tu dirección de correo electrónico {$a}.";s:9:"forbidden";s:9:"Prohibido";s:17:"errorsendingtitle";s:26:"Error al enviar el mensaje";s:12:"errorsending";s:95:"Ha ocurrido un error mientras se enviaba el mensaje. Por favor, inténtalo de nuevo más tarde.";s:14:"defaultsubject";s:13:"Nuevo mensaje";s:9:"extrainfo";s:394:"<hr>
+<p><strong>Información adicional del usuario</strong></p>
+<ul>
+    <li><strong>Usuario del sitio:</strong> [userstatus]</li>
+    <li><strong>Idioma preferido:</strong> [lang]</li>
+    <li><strong>Dirección IP:</strong> [userip]</li>
+    <li><strong>Navegador:</strong> [http_user_agent]</li>
+    <li><strong>Formulario web:</strong> <a href="[http_referer]">[http_referer]</a></li>
+</ul>";s:17:"confirmationemail";s:218:"<p>Estimado/a [fromname],</p>
+<p>Gracias por contactar con nosotros. Si es necesario, nos pondremos en contacto contigo.</p>
+<p>Saludos,</p>
+<p>[supportname]<br>
+[sitefullname]<br>
+<a href="[siteurl]">[siteurl]</a></p>";s:9:"lockedout";s:9:"BLOQUEADO";s:12:"notconfirmed";s:13:"NO CONFIRMADO";s:14:"recipient_list";s:36:"Listado de destinatarios disponibles";s:26:"recipient_list_description";s:1226:"Puedes configurar una lista de posibles destinatarios aquí, cualquiera de los cuales se puede usar en un Formulario de contacto para especificar el destinatario del correo electrónico mediante un campo de texto oculto, o en una lista desplegable de selección para permitir a los usuarios seleccionar el destinatario sin divulgar el correo electrónico real del destinatario. Si la lista está vacía, los correos electrónicos se enviarán a la dirección de correo electrónico de Moodle, ya sea a la dirección de correo electrónico de soporte o al administrador principal de Moodle.
+Cada línea debe consistir en un alias / etiqueta de texto único, una
+sola dirección de correo electrónico y un nombre, cada uno separado por tuberías (|). Por ejemplo:
+<pre>
+soporte técnico|support@example.com|Joe Fixit
+webmaster|admin@example.com|Mr. Moodle
+electricidad|nikola.tesla@example.com|Nikola
+historia|charles.darwin@example.com|Mr. Darwin
+legislación|issac.newton@example.com|Isaac Newton
+matemáticas|galileo.galilei@example.com|Galileo
+inglés|mark.twain@example.com|Mark Twain
+física|albert.einstein@example.com|Albert
+ciencia|thomas.edison@example.com|Mr. Edison
+filosofía|aristotle@example.com|Aristotle
+</pre>";s:13:"loginrequired";s:27:"Se requiere iniciar sesión";s:25:"loginrequired_description";s:131:"Permitir solo a los usuarios conectados enviar el formulario de contacto. No se considera a los invitados como usuarios conectados.";s:17:"nosubjectsitename";s:42:"Nombre del sitio web en el asunto del mail";s:29:"nosubjectsitename_description";s:53:"No incluir el nombre del sitio en el asunto del mail.";s:12:"recapchainfo";s:16:"Usando ReCAPTCHA";s:24:"recapchainfo_description";s:373:"Actualmente se está usando ReCAPTCHA en Moodle. <strong>Debes</strong>:<br>
+<ul>
+  <li>Asegurarte de que la etiqueta {recaptcha} está incluida en todos los formularios procesados por el plugin Contact Form para Moodle.</li>
+  <li>Asegurarte de que <a href="https://moodle.org/plugins/filter_filtercodes"> el plugin FilterCodes</a> está instalado y habilitado.</li>
+</ul>";s:11:"norecaptcha";s:12:"No ReCAPTCHA";s:23:"norecaptcha_description";s:73:"No usar ReCAPATCHA con formularios procesados por el plugin Contact Form.";}

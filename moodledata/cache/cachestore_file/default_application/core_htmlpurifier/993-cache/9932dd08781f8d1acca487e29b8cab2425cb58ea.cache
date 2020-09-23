@@ -1,0 +1,13 @@
+s:791:"<p>VPL permite la gestión de prácticas de programación teniendo como características más destacadas:
+</p><ul>
+<li>Posibilidad de editar el código fuente en el navegador.</li>
+<li>Posibilidad de ejecutar las prácticas de forma interactiva desde el navegador.</li>
+<li>Posibilidad de ejecutar pruebas que revisen las prácticas.</li>
+<li>Búsqueda de similitud entre prácticas para el control del plagio.</li>
+<li>Restricciones de entrega de prácticas que limitan el corta y pega de código externo.</li>
+</ul>
+
+<p><a href="http://vpl.dis.ulpgc.es">Página oficial de Virtual Programming lab</a></p>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/38/es/mod/vpl/view" class="helplinkpopup"><i class="icon fa fa-info-circle fa-fw iconhelp icon-pre"></i>Más ayuda</a></div>
+";

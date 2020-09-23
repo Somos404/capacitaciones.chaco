@@ -1,0 +1,8 @@
+s:735:"<p>BigBlueButtonBN le permite crear dentro de Moodle enlaces hacia aulas en línea en tiempo real con salas que emplean BigBlueButton, un sistema de código abierto para conferencias web para la educación a distancia.</p>
+
+<p>Usando BigBlueButtonBN puede especificar el título, descripción, fecha del calendario (que le proporciona un rango de fechas para unirse a la sesión), grupos, y detalles acerca de la grabación de la sesión en línea.</p>
+
+<p>Para ver grabaciones posteriormente, añada un recurso RecordingsBN a este curso.</p>
+
+<div class="helpdoclink"><a href="https://docs.moodle.org/38/es/BigBlueButtonBN/view" class="helplinkpopup"><i class="icon fa fa-info-circle fa-fw iconhelp icon-pre"></i>Más ayuda</a></div>
+";
